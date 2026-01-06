@@ -87,16 +87,13 @@ This trade-off is a key characteristic of **disentangled representation learning
 
 ---
 
-##  Visualization
+## Visualization
 
-A **t-SNE visualization** of the VAE latent space illustrates the separation of clusters learned by the audio-only model.
+A **t-SNE visualization** of the VAE latent space illustrates the separation of
+clusters learned by the audio-only model.
 
+![t-SNE Latent Space Visualization](Easy_Task/results/tsne_latent_space.png)
 
-::contentReference[oaicite:0]{index=0}
-
-
-**Path:**  
-Easy_Task/results/tsne_latent_space.png
 
 ---
 
@@ -119,9 +116,11 @@ The **modular design** of the framework allows for straightforward extension wit
 
 Due to dataset size constraints, **raw audio files are not included** in this repository.
 
-- Experiments were conducted using the **GTZAN Genre Dataset**, which is publicly available.
+- This project uses the **GTZAN Genre Dataset**, which is publicly available on Kaggle:
+[GTZAN Genre Dataset – Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification)
 - To reproduce the results, download the dataset separately and place it under the
 `data/audio/` directory. The dataset should be organized into genre-specific subfolders (e.g., rock, pop, blues, jazz, classical), where each subfolder contains the corresponding `.wav` audio files for that genre.
+
 
 
 
