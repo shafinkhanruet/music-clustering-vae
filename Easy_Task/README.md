@@ -60,7 +60,8 @@ These results indicate that the VAE learns **meaningful latent representations**
 
 A t-SNE projection of the latent space illustrates the separation of clusters learned by the audio-only VAE.
 
-![image alt]([image_url](https://github.com/shafinkhanruet/music-clustering-vae/blob/ae421d02b34b4b24206632821b7643d1a6b02b1e/Easy_Task/results/tsne_latent_space.png))
+![Alt text](results/tsne_latent_space.png)
+
 
 ---
 
@@ -82,3 +83,4 @@ Run Clustering and Visualization
 ```bash
 python clustering.py
 ```
+
