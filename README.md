@@ -1,6 +1,6 @@
-# 🎵 Unsupervised Music Clustering using Variational Autoencoders
+#  Unsupervised Music Clustering using Variational Autoencoders
 
-## 📌 Overview
+##  Overview
 
 This project presents an **unsupervised framework for music clustering** using **Variational Autoencoders (VAEs)**.  
 The objective is to learn **compact and meaningful latent representations** from audio signals and perform clustering in the learned latent space to identify **structural similarities between music tracks**.
@@ -10,16 +10,16 @@ The project is organized into **Easy**, **Medium**, and **Hard** tasks to reflec
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
-### 🎧 Audio Feature Extraction
+###  Audio Feature Extraction
 
 - Audio tracks are processed using **Mel-Frequency Cepstral Coefficients (MFCCs)**, which capture perceptually relevant spectral characteristics.
 - Each track is transformed into a **fixed-length feature vector** suitable for neural network input.
 
 ---
 
-### 🟢 Variational Autoencoder (Easy Task)
+###  Variational Autoencoder (Easy Task)
 
 - A **fully connected Variational Autoencoder** is trained on MFCC-based audio features.
 - **Latent dimension:** 16
@@ -30,7 +30,7 @@ The project is organized into **Easy**, **Medium**, and **Hard** tasks to reflec
 
 ---
 
-### 🔵 Clustering
+###  Clustering
 
 - **K-Means clustering** is applied to the learned latent representations.
 - **Number of clusters:** 10
@@ -121,5 +121,6 @@ Due to dataset size constraints, **raw audio files are not included** in this re
 
 - Experiments were conducted using the **GTZAN Genre Dataset**, which is publicly available.
 - To reproduce the results, download the dataset separately and place it under: `data/audio/`
+
 
 
