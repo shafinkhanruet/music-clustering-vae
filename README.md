@@ -120,7 +120,10 @@ The **modular design** of the framework allows for straightforward extension wit
 Due to dataset size constraints, **raw audio files are not included** in this repository.
 
 - Experiments were conducted using the **GTZAN Genre Dataset**, which is publicly available.
-- To reproduce the results, download the dataset separately and place it under: `data/audio/`
+- To reproduce the results, download the dataset separately and place it under the
+`data/audio/` directory. The dataset should be organized into genre-specific subfolders (e.g., rock, pop, blues, jazz, classical), where each subfolder contains the corresponding `.wav` audio files for that genre.
+
+
 
 
 
