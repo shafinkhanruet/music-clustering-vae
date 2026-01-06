@@ -100,7 +100,7 @@ Easy_Task/results/tsne_latent_space.png
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates that **Variational Autoencoders** are effective for learning **compact latent representations** from music audio features, enabling meaningful **unsupervised clustering**.
 
@@ -121,6 +121,7 @@ Due to dataset size constraints, **raw audio files are not included** in this re
 
 - Experiments were conducted using the **GTZAN Genre Dataset**, which is publicly available.
 - To reproduce the results, download the dataset separately and place it under: `data/audio/`
+
 
 
 
