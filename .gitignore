@@ -1,0 +1,15 @@
+# Ignore large datasets
+data/audio/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+musicvae/
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
