@@ -83,4 +83,25 @@ Run Clustering and Visualization
 ```bash
 python clustering.py
 ```
+---
+
+## Output
+
+- Trained Variational Autoencoder model (`vae_model.pth`)
+- Latent representations of audio features
+- Clustering evaluation metrics
+- t-SNE visualization of the learned latent space
+
+---
+
+## Notes
+
+- This task serves as the **baseline (audio-only)** experiment for comparison
+  with the Medium and Hard tasks.
+- Raw audio files are not included in the repository due to dataset size
+  constraints.
+- The publicly available **GTZAN Genre Dataset** is used and can be added locally
+  as described in the root README.
+- All preprocessing, training, and clustering steps are fully reproducible using
+  the provided scripts.
 
