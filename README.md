@@ -10,30 +10,14 @@ Each task is organized in a dedicated folder for clarity and ease of evaluation.
 
 ## Repository Structure
 
-music-clustering-vae/
-│
-├── Easy_Task/
-│ ├── train_vae.py
-│ ├── clustering.py
-│ └── README.md
-│
-├── Medium_Task/
-│ ├── train_vae.py
-│ ├── clustering_hybrid.py
-│ └── README.md
-│
-├── Hard_Task/
-│ ├── beta_vae.py
-│ ├── train_beta_vae.py
-│ ├── clustering_beta_vae.py
-│ └── README.md
-│
-├── results/
-│ └── (saved models and figures)
-│
-├── requirements.txt
-└── README.md
+The project is organized into three task-specific directories:
 
+- **Easy_Task/** – Audio-only music clustering using a standard Variational Autoencoder (VAE).
+- **Medium_Task/** – Hybrid clustering using audio features and lyric-based textual features.
+- **Hard_Task/** – Advanced clustering using a Beta-VAE to encourage disentangled representations.
+
+Each task directory contains its own scripts and README file with detailed
+implementation and execution instructions.
 
 ---
 
@@ -72,4 +56,5 @@ Run any task separately, for example:
 cd Easy_Task
 python train_vae.py
 python clustering.py
+
 
